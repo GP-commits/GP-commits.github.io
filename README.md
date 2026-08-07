@@ -14,4 +14,4 @@ Then open <http://127.0.0.1:4173/>.
 
 No dependency installation is required. The project assets, fonts, animation libraries, and Webflow runtime used by the page are stored in this directory so the main experience can run locally.
 
-Portfolio adaptation and development are credited to Sivadarsh. The footer also retains the supplied visual-reference and KH Type attributions.
+Portfolio adaptation, visual direction, development, and typography direction are credited to Sivadarsh.
