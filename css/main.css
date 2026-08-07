@@ -2055,7 +2055,7 @@ textarea.w-input, textarea.w-select {
 
 @font-face {
   font-family: KH TEKA;
-  src: url("../6a478ba93b2e8730ea4659f9_KHTeka-Medium.woff2") format("woff2"), url("../6a478ba93b2e8730ea4659e7_KHTeka-Medium.woff") format("woff");
+  src: url("../fonts/KHTeka-Medium.woff2") format("woff2"), url("../fonts/KHTeka-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -2063,7 +2063,7 @@ textarea.w-input, textarea.w-select {
 
 @font-face {
   font-family: KH TEKA;
-  src: url("../6a478ba93b2e8730ea4659ef_KHTeka-Bold.woff2") format("woff2"), url("../6a478ba93b2e8730ea4659f1_KHTeka-Bold.woff") format("woff");
+  src: url("../fonts/KHTeka-Bold.woff2") format("woff2"), url("../fonts/KHTeka-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
