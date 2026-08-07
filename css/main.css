@@ -4313,7 +4313,7 @@ textarea.w-input, textarea.w-select {
   justify-content: space-between;
   align-items: flex-end;
   width: 100%;
-  padding-top: 128px;
+  padding-top: 96px;
   padding-bottom: 18px;
   display: flex;
 }
@@ -4331,13 +4331,14 @@ textarea.w-input, textarea.w-select {
 .reels-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: var(--_measures---side-gap-ld);
-  margin-top: 64px;
+  gap: 12px;
+  margin-top: 48px;
+  align-items: start;
 }
 
 .reel-card {
   position: relative;
-  aspect-ratio: 9 / 16;
+  height: clamp(320px, 56vh, 540px);
   overflow: hidden;
   background: #1a1a1a;
   cursor: pointer;
@@ -4541,15 +4542,22 @@ textarea.w-input, textarea.w-select {
 }
 
 @media screen and (max-width: 991px) {
-  .reels-grid { grid-template-columns: repeat(2, 1fr); }
+  .reels-grid { grid-template-columns: repeat(3, 1fr); gap: 8px; }
+  .reel-card { height: clamp(260px, 45vw, 440px); }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
+  .reels-grid { grid-template-columns: repeat(3, 1fr); gap: 6px; }
+  .reel-card { height: clamp(220px, 40vw, 360px); }
+  .reel-overlay { padding: 16px; }
+  .reel-item-desc { display: none; }
+}
+
+@media screen and (max-width: 479px) {
   .reels-grid {
-    grid-template-columns: 1fr;
-    max-width: 360px;
-    margin-left: auto;
-    margin-right: auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
   }
+  .reel-card { height: clamp(180px, 35vw, 300px); }
   .reels-title-container { flex-direction: column; align-items: flex-start; gap: 8px; }
 }
