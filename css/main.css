@@ -4342,6 +4342,9 @@ textarea.w-input, textarea.w-select {
   overflow: hidden;
   background: #1a1a1a;
   cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  display: block;
 }
 
 .reel-card::after {
